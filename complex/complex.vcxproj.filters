@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{46937c51-1d29-4f5f-b85a-6154f74f3581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{2f814f93-59b3-42f3-bd9d-7c0ffe00589b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\TimeManager">
+      <UniqueIdentifier>{f33dd791-1588-4eb6-8f3d-e27273dbec2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI">
+      <UniqueIdentifier>{60814e80-5be7-455c-a848-ea67ccfd761c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\ImGui">
+      <UniqueIdentifier>{ddd50bb8-4f18-4d54-89ba-3d336bed8382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\ImGui\Addons">
+      <UniqueIdentifier>{080216e7-f17f-4705-a3dd-3b60cdc910a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Dockable">
+      <UniqueIdentifier>{c9a68fff-0c7f-49cc-a57e-9223c0107778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Widget">
+      <UniqueIdentifier>{69b58951-9c59-4390-9b7a-bc17607ddd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\DragVector">
+      <UniqueIdentifier>{991d7f8a-0c1e-453e-827f-a0c53cd1a978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Toolbar">
+      <UniqueIdentifier>{62071ec9-f342-4204-84d5-d7bf3eefbeec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Table">
+      <UniqueIdentifier>{7cfc9ae0-153f-44c5-a428-d76b1d7c0490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE">
+      <UniqueIdentifier>{351b9fcf-a045-4870-8581-1cbf56bfb29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Systems">
+      <UniqueIdentifier>{ca2de750-a7de-4dc4-9124-c9b5b3d0dcc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Modular">
+      <UniqueIdentifier>{94d4028d-f93b-4a93-bc97-96eeab3b498e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\DefaultModules">
+      <UniqueIdentifier>{9f5262e8-2b40-4301-98c4-64c9625ad63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\DefaultModules\Theme">
+      <UniqueIdentifier>{9bbc5eb7-294c-4d00-a582-c5d706ae831a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Group">
+      <UniqueIdentifier>{48748bae-3960-41df-a210-d5919110d28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Member">
+      <UniqueIdentifier>{2ac1447c-7fb7-41a3-85fc-070a79c3799d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Objects">
+      <UniqueIdentifier>{ec5490ee-bb2a-4e37-8e67-b5873a7f83b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Relations">
+      <UniqueIdentifier>{06a0daa8-6684-4feb-97e7-db5b4e98520f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Commands">
+      <UniqueIdentifier>{8ff79dbc-723a-4ee6-994a-64f519e9c6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\StateMachine">
+      <UniqueIdentifier>{c365eeb2-0ab4-4ee3-aa3d-60792577a6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Project">
+      <UniqueIdentifier>{5dd84da6-60e2-4ef2-9ed7-727e399f2d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\MainWindow">
+      <UniqueIdentifier>{f83fe5fa-d28c-4e80-95a2-64333053dfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\TODO">
+      <UniqueIdentifier>{6279cb67-f234-427e-b31a-d13bbd310a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\TODO\Instances">
+      <UniqueIdentifier>{bf90ca81-40cc-4ca8-9108-6c1feae09f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\TODO\Objects">
+      <UniqueIdentifier>{a49b8bd6-de1f-40ea-b14c-fdd194f9b91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\TODO\Components">
+      <UniqueIdentifier>{acd6849b-6587-48c0-9e65-116a753e1249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\TODO\Demo">
+      <UniqueIdentifier>{ff42ffed-f65a-42da-ad01-993d0aaf5a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Windows">
+      <UniqueIdentifier>{e516a031-2792-460d-9be4-74114ca01a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Windows\ChildWindow">
+      <UniqueIdentifier>{2431159c-daf1-4308-a6d4-69761665a0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Windows\Dockspace">
+      <UniqueIdentifier>{84ab77cf-414c-485e-b774-7871d47908a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Windows\ContentWindow">
+      <UniqueIdentifier>{d64f525b-b883-4611-8016-36c3fcc2b833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Windows\PopupWindow">
+      <UniqueIdentifier>{243618a0-69cb-46cf-9ed0-a577957b8b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Windows\PopupWindow\ContextMenu">
+      <UniqueIdentifier>{9783d0ff-db97-47bd-a7c9-5e2741cc4207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Windows\PopupWindow\DialogBox">
+      <UniqueIdentifier>{5970c5ea-18e9-423f-9f85-3a5aa2a930d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\Sidebar">
+      <UniqueIdentifier>{5569c64e-0d61-4cff-8f52-78f9a6d38fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GUI\ImGui\external">
+      <UniqueIdentifier>{5d38c4ce-e2e1-461d-a0a9-97f2fc19b1d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\complex_Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_MainWindow.h">
+      <Filter>Application\GUI\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Modular.h">
+      <Filter>OBSOLETE\Modular</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Project.h">
+      <Filter>OBSOLETE\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Systems.h">
+      <Filter>Application\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_TimeManager.h">
+      <Filter>Application\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Dockable.h">
+      <Filter>Application\GUI\Dockable</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Dockspace.h">
+      <Filter>Application\GUI\Windows\Dockspace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_DragVector.h">
+      <Filter>Application\GUI\DragVector</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Window.h">
+      <Filter>Application\GUI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_DialogBox.h">
+      <Filter>Application\GUI\Windows\PopupWindow\DialogBox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_PopupWindow.h">
+      <Filter>Application\GUI\Windows\PopupWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_ContextMenu.h">
+      <Filter>Application\GUI\Windows\PopupWindow\ContextMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_ContentWindow.h">
+      <Filter>Application\GUI\Windows\ContentWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_ChildWindow.h">
+      <Filter>Application\GUI\Windows\ChildWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Table.h">
+      <Filter>Application\GUI\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_ImAddons.h">
+      <Filter>Application\GUI\ImGui\Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Toolbar.h">
+      <Filter>Application\GUI\Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Toolset.h">
+      <Filter>Application\GUI\Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Widget.h">
+      <Filter>Application\GUI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Relations.h">
+      <Filter>OBSOLETE\Relations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Member.h">
+      <Filter>OBSOLETE\Member</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Object.h">
+      <Filter>OBSOLETE\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Components.h">
+      <Filter>Application\TODO\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Commands.h">
+      <Filter>OBSOLETE\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Group.h">
+      <Filter>OBSOLETE\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Instances.h">
+      <Filter>Application\TODO\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Objects.h">
+      <Filter>Application\TODO\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_StateMachine.h">
+      <Filter>Application\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Demo.h">
+      <Filter>Application\TODO\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="include\complex_Sidebar.h">
+      <Filter>Application\GUI\Sidebar</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imconfig.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_impl_opengl3.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_impl_sdl.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_internal.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_stdlib.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\implot.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\implot_internal.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_rectpack.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_textedit.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_truetype.h">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\complex_Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_MainWindow.cpp">
+      <Filter>Application\GUI\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Project.cpp">
+      <Filter>OBSOLETE\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_TimeManager.cpp">
+      <Filter>Application\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Dockable.cpp">
+      <Filter>Application\GUI\Dockable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Dockspace.cpp">
+      <Filter>Application\GUI\Windows\Dockspace</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Window.cpp">
+      <Filter>Application\GUI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_DialogBox.cpp">
+      <Filter>Application\GUI\Windows\PopupWindow\DialogBox</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_PopupWindow.cpp">
+      <Filter>Application\GUI\Windows\PopupWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_ContextMenu.cpp">
+      <Filter>Application\GUI\Windows\PopupWindow\ContextMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_ContentWindow.cpp">
+      <Filter>Application\GUI\Windows\ContentWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_ChildWindow.cpp">
+      <Filter>Application\GUI\Windows\ChildWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Table.cpp">
+      <Filter>Application\GUI\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_ImAddons.cpp">
+      <Filter>Application\GUI\ImGui\Addons</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Toolbar.cpp">
+      <Filter>Application\GUI\Toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\complex_Instances.cpp">
+      <Filter>Application\TODO\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_demo.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_draw.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_impl_sdl.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_stdlib.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_tables.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_widgets.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\implot.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\implot_demo.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\implot_items.cpp">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="complex_README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\ImGui\implot_LICENSE">
+      <Filter>Application\GUI\ImGui\external</Filter>
+    </None>
+  </ItemGroup>
+</Project>

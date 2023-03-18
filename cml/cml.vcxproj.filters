@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{300499c8-d023-42f2-ba0d-389526bb8012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AABB">
+      <UniqueIdentifier>{bf3c36a8-d1b5-469d-a062-9edee31d562f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuboid">
+      <UniqueIdentifier>{d3ccebcb-7778-4685-8a21-9928fef4ff31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rectangle">
+      <UniqueIdentifier>{b9917ac7-6910-467c-a7e3-1c8b221c5987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TriangleMesh">
+      <UniqueIdentifier>{3387cba1-ce10-4987-99ae-f69a22c4bb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoordinateSystem">
+      <UniqueIdentifier>{5543342c-fd42-4cd7-8daa-de4167d5704c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plane">
+      <UniqueIdentifier>{2637e35f-571d-4844-957d-13da48ddae5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sphere">
+      <UniqueIdentifier>{9708205f-cb0b-4840-81bf-80bdac335ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cone">
+      <UniqueIdentifier>{f4900ab2-7d6c-48d8-af5f-fd5f7ccf1c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBB">
+      <UniqueIdentifier>{26e6c5a8-5fa3-4829-8444-50fd01c906f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvexHull">
+      <UniqueIdentifier>{c2591211-a07d-4276-a3a6-8cf26e0d68fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ray">
+      <UniqueIdentifier>{d7ec960b-a799-4fc0-bfd4-22c478ddea00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cylinder">
+      <UniqueIdentifier>{00f507e3-73c1-4fd8-ac73-2cc282c84734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EulerAngles">
+      <UniqueIdentifier>{2951f96a-14c5-4350-a719-e5ab3f1fc627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Funnel">
+      <UniqueIdentifier>{a5ee95de-632e-416b-80ae-b240c7b6eaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AABR">
+      <UniqueIdentifier>{255a04a6-b82c-48bd-b27f-7c062b14b077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HV">
+      <UniqueIdentifier>{f27d6fc4-0012-456a-ab37-038e4e7affa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TriangleMesh\poly2tri">
+      <UniqueIdentifier>{c775316a-c7f8-4d4c-a5d2-97682dae3111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TriangleMesh\poly2tri\common">
+      <UniqueIdentifier>{e7246949-ed71-4b42-be3a-33705e5baf03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TriangleMesh\poly2tri\sweep">
+      <UniqueIdentifier>{da8049ad-38ad-41fa-b9fb-0b3cebe57844}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cml_utilities.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_AABB.h">
+      <Filter>AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Cuboid.h">
+      <Filter>Cuboid</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Rectangle.h">
+      <Filter>Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_TriangleMesh.h">
+      <Filter>TriangleMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_CoordinateSystem.h">
+      <Filter>CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Plane.h">
+      <Filter>Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Sphere.h">
+      <Filter>Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Cone.h">
+      <Filter>Cone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_OBB.h">
+      <Filter>OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_ConvexHull.h">
+      <Filter>ConvexHull</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Ray.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Cylinder.h">
+      <Filter>Cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_EulerAngles.h">
+      <Filter>EulerAngles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_Funnel.h">
+      <Filter>Funnel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml_AABR.h">
+      <Filter>AABR</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cml.h" />
+    <ClInclude Include="include\cml_HV.h">
+      <Filter>HV</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\poly2tri.h">
+      <Filter>TriangleMesh\poly2tri</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\common\p2t.h">
+      <Filter>TriangleMesh\poly2tri\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\common\shapes.h">
+      <Filter>TriangleMesh\poly2tri\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\common\utils.h">
+      <Filter>TriangleMesh\poly2tri\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\sweep\advancing_front.h">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\sweep\cdt.h">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\sweep\sweep.h">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="include\poly2tri\sweep\sweep_context.h">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\cml_utilities.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_AABB.cpp">
+      <Filter>AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Cuboid.cpp">
+      <Filter>Cuboid</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Rectangle.cpp">
+      <Filter>Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_TriangleMesh.cpp">
+      <Filter>TriangleMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_CoordinateSystem.cpp">
+      <Filter>CoordinateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Plane.cpp">
+      <Filter>Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Sphere.cpp">
+      <Filter>Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Cone.cpp">
+      <Filter>Cone</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_OBB.cpp">
+      <Filter>OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_ConvexHull.cpp">
+      <Filter>ConvexHull</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Ray.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Cylinder.cpp">
+      <Filter>Cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_EulerAngles.cpp">
+      <Filter>EulerAngles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_Funnel.cpp">
+      <Filter>Funnel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cml_AABR.cpp">
+      <Filter>AABR</Filter>
+    </ClCompile>
+    <ClCompile Include="include\poly2tri\common\shapes.cc">
+      <Filter>TriangleMesh\poly2tri\common</Filter>
+    </ClCompile>
+    <ClCompile Include="include\poly2tri\sweep\advancing_front.cc">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="include\poly2tri\sweep\cdt.cc">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="include\poly2tri\sweep\sweep.cc">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="include\poly2tri\sweep\sweep_context.cc">
+      <Filter>TriangleMesh\poly2tri\sweep</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

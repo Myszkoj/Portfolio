@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\upf_Block.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="source\upf_SpatialDivision.cpp">
+      <Filter>SpatialDivision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\upf_Voxel.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\upf_Block.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upf_Box.h">
+      <Filter>Box</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upf_Series.h">
+      <Filter>Series</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upf_SpatialDivision.h">
+      <Filter>SpatialDivision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upf_Voxel.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upf_utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Voxel">
+      <UniqueIdentifier>{f20642f8-6b8d-4e10-a1f9-8a5024ae2558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box">
+      <UniqueIdentifier>{be63d77e-5849-45d0-a844-dacf4249c5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpatialDivision">
+      <UniqueIdentifier>{c4de60f6-3e48-4dcc-aafd-127f395f8798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{793d892a-336a-4d50-a35f-a3d3a95769d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Series">
+      <UniqueIdentifier>{a4f9d839-af4c-4a0c-9778-edaa8e2f1447}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

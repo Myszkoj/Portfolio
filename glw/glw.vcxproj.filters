@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{44293472-79bd-4a6f-8b05-d100097b6ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{6ab6e219-ea73-421e-98a5-689550d43c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{9648877c-e918-401f-8c0e-295d2a2a10c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\RenderableTexture">
+      <UniqueIdentifier>{251a980f-c72f-43f9-bb55-8db0bee5b9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\ExternalTexture">
+      <UniqueIdentifier>{6606960f-b293-4a66-85f7-0f82f4655606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colors">
+      <UniqueIdentifier>{c7fc7962-14d8-4443-b8e5-b25b097ff67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameBuffer">
+      <UniqueIdentifier>{8513cb9a-1dee-4a10-a60c-cb16baeec1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameBuffer\FragmentLayer">
+      <UniqueIdentifier>{4bba5407-f9e1-4772-8ce8-ecf8076eac03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameBuffer\FragmentLayer\DepthLayer">
+      <UniqueIdentifier>{f87c92a9-74a5-4281-90cd-13780ecbca2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameBuffer\FragmentLayer\ColorLayer">
+      <UniqueIdentifier>{20d83d9d-baf4-40c8-b3ce-f2b51d8c9a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL">
+      <UniqueIdentifier>{e8f4c93e-b712-42bd-88ac-0e7b62df8d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Types">
+      <UniqueIdentifier>{dac32d6d-3977-448b-ad94-d587e4a9bbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Variable">
+      <UniqueIdentifier>{f1b859ee-a8fb-4009-ab39-51dc9e5b7c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Transfers">
+      <UniqueIdentifier>{d50a6fec-fa60-4bcb-aa78-b290d8db8f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Program">
+      <UniqueIdentifier>{82268674-e043-4253-8f51-fcc9650a7f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Program\Blueprint">
+      <UniqueIdentifier>{2ad768df-acb0-4438-a64b-8af824e40a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Program\Stage">
+      <UniqueIdentifier>{5e00dc43-c180-430f-ac6c-441777b78a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureBuffer">
+      <UniqueIdentifier>{b9c0ac36-2368-4f15-b545-74d2e176122a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Uniform">
+      <UniqueIdentifier>{15978590-c60d-40a7-b203-289bb916d87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE">
+      <UniqueIdentifier>{8fb113eb-b24e-4863-8396-a326a0819470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VAO">
+      <UniqueIdentifier>{5a2f804c-c717-4197-8408-a43d0d0f5fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VertexTopology">
+      <UniqueIdentifier>{dfaa2da8-eb99-4e45-94ca-17105cfbfe9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{6181ac40-532d-4e13-9c1c-395b9f02c8cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SL\Code">
+      <UniqueIdentifier>{f3c01fb2-58bd-4a48-9f60-6fa185296919}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\glw_Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_Types.h">
+      <Filter>SL\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_SLCode.h">
+      <Filter>SL\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_SLVariable.h">
+      <Filter>SL\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_SLTransfers.h">
+      <Filter>SL\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_Buffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_RenderableTexture.h">
+      <Filter>Texture\RenderableTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_DepthLayer.h">
+      <Filter>FrameBuffer\FragmentLayer\DepthLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_ColorLayer.h">
+      <Filter>FrameBuffer\FragmentLayer\ColorLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_FrameBuffer.h">
+      <Filter>FrameBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_SLStage.h">
+      <Filter>SL\Program\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_SLProgram.h">
+      <Filter>SL\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_ExternalTexture.h">
+      <Filter>Texture\ExternalTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_FragmentLayer.h">
+      <Filter>FrameBuffer\FragmentLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_Colors.h">
+      <Filter>Colors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_TextureBuffer.h">
+      <Filter>TextureBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_Uniform.h">
+      <Filter>SL\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_VAO.h">
+      <Filter>VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_VertexTopology.h">
+      <Filter>VertexTopology</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_Rendering.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glw_SLBlueprint.h">
+      <Filter>SL\Program\Blueprint</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\glw_Types.cpp">
+      <Filter>SL\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_SLVariable.cpp">
+      <Filter>SL\Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_SLTransfers.cpp">
+      <Filter>SL\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_SLBlueprint.cpp">
+      <Filter>SL\Program\Blueprint</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_RenderableTexture.cpp">
+      <Filter>Texture\RenderableTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_ColorLayer.cpp">
+      <Filter>FrameBuffer\FragmentLayer\ColorLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_FrameBuffer.cpp">
+      <Filter>FrameBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_SLStage.cpp">
+      <Filter>SL\Program\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_SLProgram.cpp">
+      <Filter>SL\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_ExternalTexture.cpp">
+      <Filter>Texture\ExternalTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_Colors.cpp">
+      <Filter>Colors</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glw_Buffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
