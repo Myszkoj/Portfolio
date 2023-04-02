@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Initial", "Initial\Initial.vcxproj", "{36228748-0AC8-4306-B4A7-A15BE089ACE5}"
 EndProject
@@ -70,6 +70,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots"
 		screenshots\72482898_766919400417878_1407346042847887360_n.jpg = screenshots\72482898_766919400417878_1407346042847887360_n.jpg
 		screenshots\93860345_2781304471991358_5606632350940135424_n.png = screenshots\93860345_2781304471991358_5606632350940135424_n.png
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gamejam", "gamejam", "{47F9DA2C-CE68-46FD-8FCD-9D595BCDD6EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
